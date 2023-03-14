@@ -1,0 +1,72 @@
+@media screen and (max-width:851px){
+/* Start Sabeh */
+.title-sabeh{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.title-sabeh h2{
+    position: relative;
+}
+.title-sabeh h2::before{
+    content: "إبدأ بالتسبيح";
+    position:absolute;
+    top: -7%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: .3;
+    font-weight: 900;
+}
+
+.sabeeh{
+    display: grid;
+    grid-template-columns: repeat(1,90%);
+    grid-row-gap: 20px;
+    justify-content: center;
+    align-self: center;
+    align-content: center;
+}
+
+.sabeeh .child{
+    background-color:#f8f9fa;
+    padding: 30px;
+    text-align: center;
+    border-radius: 4px;
+}
+.sabeeh .child:hover{
+    cursor: pointer;
+    /* border: 2px solid #fbebcc; */
+    box-shadow: rgba(0,0,0,.1) 0px 0px 6px;
+}
+.sabeeh .child h6{
+    margin:0px auto 10px auto;
+    text-align: center;
+    background-color: #fff4df;
+    padding: 15px;
+    width: 80px;
+    height:80px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.sabeeh .child h1{
+    font-size: 20px;
+    color:#1e1e1e;
+}
+.sabeeh .child h6 span{
+    font-size: 35px;
+    margin-right: 5px;
+    color: #ffbc3e;
+}
+
+.sabeeh .colONE , .sabeeh .colTwo ,.sabeeh .colThree , .sabeeh .colFour{
+    display: grid;
+    grid-row-gap: 20px;
+}
+/* End Sabeh */
+}
